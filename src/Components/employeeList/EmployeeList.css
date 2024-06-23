@@ -1,0 +1,32 @@
+
+
+.cardEmployee {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Позволяет перенос элементов на следующую строку */
+    align-items: center;
+
+    gap: 16px; /* Расстояние между карточками */
+    justify-content: center; /* Равномерное распределение карточек */
+
+    width: 15rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 8px #c4c2c2;
+
+    margin: 0.5rem;
+    background-color: white;
+    height: fit-content;
+
+}
+
+.employee-card-group {
+    gap: 11px;
+    flex-direction: row;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: start;
+    /*width: 70%;*/
+    padding-left: 300px;
+    padding-right: 300px;
+}

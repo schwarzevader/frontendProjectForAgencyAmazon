@@ -1,5 +1,13 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Позволяет перенос элементов на следующую строку */
+  align-items: center;
+
+  gap: 16px; /* Расстояние между карточками */
+  justify-content: center; /* Равномерное распределение карточек */
+  /*justify-content: space-between; !* Равномерное распределение карточек *!*/
+  background-color: #282c34;
 }
 
 .App-logo {
